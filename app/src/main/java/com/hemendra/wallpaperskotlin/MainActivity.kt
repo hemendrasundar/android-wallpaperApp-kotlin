@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
              var intent = Intent(this@MainActivity,WallPaperActivity::class.java)
              startActivity(intent)
          }
+        btn_fav.setOnClickListener {
+            var intent = Intent(this@MainActivity,FavActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
